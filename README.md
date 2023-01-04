@@ -1,4 +1,4 @@
-![logo](https://github.com/kapilinania/kapilinania/blob/main/banner.png)
+![logo]([https://github.com/kapilinania/kapilinania/blob/main/banner.png](https://github.com/kapilinania/kapilinania/blob/main/image.jpg))
 <h1 align="center">Hi 👋, I'm Kapil Inania</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif">
