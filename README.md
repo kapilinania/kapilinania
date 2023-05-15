@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **react**
 
-- 📝 My Protolio is here [[https://hindifestival.com/](https://kapilinania.github.io/portfolio2nd.github.io/)](https://kapilinania.github.io/portfolio2nd.github.io/)
+- 📝 My Protolio is here [(https://kapilinania.github.io/portfolio2nd.github.io/)](https://kapilinania.github.io/portfolio2nd.github.io/)
 
 - 💬 Ask me about **Bootstrap v5.3**
 
