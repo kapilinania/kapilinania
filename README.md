@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **react**
 
-- 📝 I regularly write articles on [[https://hindifestival.com/](https://kapilinania.github.io/portfolio2nd.github.io/)]([https://hindifestival.com/](https://kapilinania.github.io/portfolio2nd.github.io/))
+- 📝 I regularly write articles on [[https://hindifestival.com/](https://kapilinania.github.io/portfolio2nd.github.io/)](https://kapilinania.github.io/portfolio2nd.github.io/)
 
 - 💬 Ask me about **Bootstrap v5.3**
 
