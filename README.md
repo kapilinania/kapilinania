@@ -1,126 +1,192 @@
-<!-- 🔥 ULTRA PREMIUM GRADIENT BANNER -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kapilinania/kapilinania/main/bannerimage.png" />
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kapil | AI Portfolio</title>
 
-<!-- 👑 NAME + ROLE -->
-<h1 align="center">Hi 👋, I'm Kapil Inania</h1>
-<h3 align="center">🚀 Frontend Developer | AI Engineer | Building Future Web</h3>
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #0f2027, #000);
+  color: white;
+  overflow-x: hidden;
+}
 
-<!-- ⚡ TYPING ANIMATION -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+AI+Enthusiast;Building+Scalable+Apps;Always+Learning+New+Things+🚀" />
-</p>
+/* 🔥 HOLOGRAM EFFECT */
+.glow {
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+}
 
-<!-- 🔥 PROFILE VIEWS + FOLLOWERS -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kapilinania&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/kapilinania?style=for-the-badge&color=orange" />
-</p>
+/* NAV */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
 
----
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  flex-wrap: wrap;
+}
 
-<!-- 🧠 ABOUT -->
-## 🧠 About Me
+/* 🤖 AVATAR */
+.avatar {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #00f7ff;
+  animation: float 4s ease-in-out infinite;
+}
 
-<img align="right" height="250" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
 
-- 🔭 Currently working on **Full Stack & AI Projects**
-- 🌱 Learning **React, Node.js, AI Integration**
-- 💡 Passionate about **Modern UI/UX + Performance**
-- 💬 Ask me about **Bootstrap, Tailwind, Laravel**
-- 📫 Email: **Inaniyakapil2000@gmail.com**
-- ⚡ Fun fact: *Code + Chai = Perfect Debugging ☕*
+/* BUTTON */
+.btn {
+  padding: 12px 25px;
+  background: #00f7ff;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+}
 
----
+/* CHATBOT */
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  overflow: hidden;
+}
 
-<!-- 🌐 SOCIAL -->
-## 🌐 Connect With Me
+.chat-header {
+  background: #00f7ff;
+  color: black;
+  padding: 10px;
+}
 
-<p align="center">
-<a href="https://www.linkedin.com/in/kapil-inania">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="50"/>
-</a>
-<a href="https://www.youtube.com/@kapilinania">
-  <img src="https://skillicons.dev/icons?i=youtube" height="50"/>
-</a>
-<a href="mailto:Inaniyakapil2000@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" height="50"/>
-</a>
-</p>
+.chat-body {
+  height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
 
----
+.chat-input {
+  display: flex;
+}
 
-<!-- ⚡ TECH STACK -->
-## ⚡ Tech Stack
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap,nodejs,php,laravel,mysql,linux,git,github,docker" />
-</p>
+.chat-input button {
+  padding: 10px;
+  background: #00f7ff;
+  border: none;
+}
 
----
+/* SKILLS */
+.skills {
+  padding: 50px 10%;
+}
 
-<!-- 📊 STATS -->
-## 📊 GitHub Analytics
+.skill-box {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #00f7ff;
+  border-radius: 20px;
+}
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kapilinania&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kapilinania&theme=tokyonight&hide_border=true" />
-</p>
+/* RESPONSIVE */
+@media(max-width:768px){
+.hero {flex-direction: column; text-align:center;}
+.avatar {margin-top:20px;}
+}
+</style>
 
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kapilinania&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+</head>
+<body>
 
----
+<header>
+  <h2 class="glow">Kapil.dev</h2>
+</header>
 
-<!-- 🐍 SNAKE -->
-## 🐍 Contribution Snake
+<section class="hero">
+  <div>
+    <h1>Hi 👋 I'm <span class="glow">Kapil</span></h1>
+    <h2>AI + Frontend Developer 🚀</h2>
+    <p>Building futuristic web experiences</p>
+    <a href="#" class="btn">Hire Me</a>
+  </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
+  <!-- 🤖 AVATAR -->
+  <img class="avatar" src="https://i.imgur.com/6VBx3io.png" alt="avatar">
+</section>
 
----
+<!-- SKILLS -->
+<section class="skills">
+  <h2 class="glow">Tech Stack</h2>
+  <div class="skill-box">HTML</div>
+  <div class="skill-box">CSS</div>
+  <div class="skill-box">JavaScript</div>
+  <div class="skill-box">React</div>
+  <div class="skill-box">AI</div>
+</section>
 
-<!-- 🏆 TROPHIES -->
-## 🏆 Achievements
+<!-- 🤖 CHATBOT -->
+<div class="chatbot">
+  <div class="chat-header">AI Assistant 🤖</div>
+  <div class="chat-body" id="chatBody">
+    <p>Hi! Ask me anything 👋</p>
+  </div>
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Type...">
+    <button onclick="sendMessage()">➤</button>
+  </div>
+</div>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kapilinania&theme=tokyonight&no-frame=true&margin-w=10" />
-</p>
+<script>
+function sendMessage(){
+  let input = document.getElementById("userInput");
+  let chat = document.getElementById("chatBody");
 
----
+  let userText = input.value;
+  if(userText === "") return;
 
-<!-- 🚀 PROJECTS -->
-## 🚀 Featured Projects
+  chat.innerHTML += "<p><b>You:</b> " + userText + "</p>";
 
-✨ **Portfolio Website**  
-✨ **SEO Competitor Tool (Python)**  
-✨ **Laravel Exam Portal**  
+  let reply = "I am your AI assistant 🤖";
 
----
+  if(userText.toLowerCase().includes("skill")){
+    reply = "Kapil knows HTML, CSS, JS, React & AI 🚀";
+  }
 
-<!-- 🎯 GOALS -->
-## 🎯 2026 Goals
+  if(userText.toLowerCase().includes("contact")){
+    reply = "Email: Inaniyakapil2000@gmail.com";
+  }
 
-- 🔥 Master React & Next.js  
-- 🤖 Build AI-powered apps  
-- 💼 Get top tech job  
-- 🌍 Contribute to open source  
+  setTimeout(()=>{
+    chat.innerHTML += "<p><b>Bot:</b> " + reply + "</p>";
+    chat.scrollTop = chat.scrollHeight;
+  },500);
 
----
+  input.value="";
+}
+</script>
 
-<!-- 🧠 QUOTE -->
-## 🧠 Dev Quote
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</p>
-
----
-
-<!-- 💖 FOOTER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:000000&height=120&section=footer"/>
-</p>
+</body>
+</html>
