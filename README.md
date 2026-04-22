@@ -1,5 +1,5 @@
 
-![logo](https://github.com/kapilinania/kapilinania/blob/main/gotchas-git-github-banner-1.png)
+![logo](https://raw.githubusercontent.com/kapilinania/kapilinania/refs/heads/main/bannerimage.png)
 <meta name="google-site-verification" content="apZyfCfE8kNm2ifPWFogQA_BXun_hpJ1aMauvlnoeI4" />
 <h1 align="center">Hi 👋, I'm Kapil Inania</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
